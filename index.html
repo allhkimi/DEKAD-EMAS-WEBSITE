@@ -1,50 +1,304 @@
 <!DOCTYPE html>
-<p>Empowering industries through resources and innovation.</p>
-</section>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dekad Emas Resources — Engineering Consultancy</title>
+  <meta name="description" content="Dekad Emas Resources — multidisciplinary engineering consultancy focused on surface preparation & coating, process control & design, auto refinishing and engineering supply in Malaysia." />
+  <meta name="theme-color" content="#ff7a00" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css" />
+  <meta property="og:title" content="Dekad Emas Resources" />
+  <meta property="og:description" content="Practical, reliable & quality engineering solutions." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dekademas.com" />
+  <meta property="og:image" content="./assets/images/og-image.jpg" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Dekad Emas Resources",
+    "url": "https://dekademas.com",
+    "logo": "./assets/images/logo.png",
+    "sameAs": ["https://www.facebook.com/p/DEKAD-EMAS-RESOURCES-100054367804135/"]
+  }
+  </script>
+</head>
+<body>
+  <!-- ===== Top Bar ===== -->
+  <div class="topbar" aria-label="Company announcement bar">
+    <p><strong>Dekad Emas Resources</strong> — Practical, Reliable & Quality Engineering</p>
+  </div>
 
+  <!-- ===== Header / Nav ===== -->
+  <header class="header">
+    <a href="#home" class="brand" aria-label="Dekad Emas Resources home">
+      <img src="./assets/images/logo.svg" alt="Dekad Emas Resources" class="brand__logo" />
+      <span class="brand__name">Dekad Emas Resources</span>
+    </a>
 
-<section id="about" class="about">
-<h2>About Us</h2>
-<p>Dekad Emas Resources is committed to delivering excellence in resource management, sustainable solutions, and industry innovation across Malaysia.</p>
-</section>
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Open menu">
+      <span class="nav__toggle-bar"></span>
+      <span class="nav__toggle-bar"></span>
+      <span class="nav__toggle-bar"></span>
+    </button>
 
+    <nav id="primaryNav" class="nav" aria-label="Primary">
+      <a href="#services">Services</a>
+      <a href="#industries">Industries</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="btn btn--sm btn--brand">Get a Quote</a>
+    </nav>
+  </header>
 
-<section id="services" class="services">
-<h2>Our Services</h2>
-<div class="service-grid">
-<div class="service-card">
-<h3>Resource Supply</h3>
-<p>Providing high-quality and sustainable resources for industrial needs.</p>
-</div>
-<div class="service-card">
-<h3>Consulting</h3>
-<p>Offering strategic guidance in resource management and optimization.</p>
-</div>
-<div class="service-card">
-<h3>Logistics</h3>
-<p>Efficient and reliable distribution services across Malaysia.</p>
-</div>
-</div>
-</section>
+  <main id="home">
+    <!-- ===== Hero ===== -->
+    <section class="hero" role="banner">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <h1 class="hero__title">Engineering that keeps your operations <span class="accent">running</span>.</h1>
+          <p class="hero__subtitle">Surface preparation & coating, process control & design, auto refinishing and engineering supply — delivered with safety, quality and uptime in mind.</p>
+          <div class="hero__cta">
+            <a href="#services" class="btn btn--brand">Our Services</a>
+            <a href="#projects" class="btn btn--ghost">View Projects</a>
+          </div>
+          <dl class="stats">
+            <div class="stat"><dt>Years</dt><dd>10+</dd></div>
+            <div class="stat"><dt>Projects</dt><dd>50+</dd></div>
+            <div class="stat"><dt>On‑time</dt><dd>98%</dd></div>
+          </dl>
+        </div>
+        <div class="hero__media">
+          <div class="media-card">
+            <img src="./assets/images/hero.jpg" alt="Industrial engineering montage" />
+          </div>
+        </div>
+      </div>
+      <div class="trust">
+        <p class="trust__label">Trusted by teams across manufacturing & environmental sectors</p>
+        <ul class="trust__logos" aria-label="Client logos">
+          <li class="logo-placeholder" aria-hidden="true">Logo A</li>
+          <li class="logo-placeholder" aria-hidden="true">Logo B</li>
+          <li class="logo-placeholder" aria-hidden="true">Logo C</li>
+          <li class="logo-placeholder" aria-hidden="true">Logo D</li>
+        </ul>
+      </div>
+    </section>
 
+    <!-- ===== Services ===== -->
+    <section id="services" class="section">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">What we do</p>
+          <h2 class="section__title">Core Services</h2>
+          <p class="section__desc">Practical solutions from plating lines to process control — engineered for safety, maintainability and throughput.</p>
+        </header>
+        <div class="grid grid--services">
+          <article class="card">
+            <div class="card__icon">🛡️</div>
+            <h3 class="card__title">Surface Preparation & Coating</h3>
+            <p class="card__desc">End‑to‑end surface protection, plating and coating solutions for industrial environments.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">📈</div>
+            <h3 class="card__title">Process Control & Design</h3>
+            <p class="card__desc">Design, commissioning and optimization of industrial process control systems.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">🔧</div>
+            <h3 class="card__title">Auto Refinishing</h3>
+            <p class="card__desc">Automotive surface finishing with consistent, durable and quality results.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">⚙️</div>
+            <h3 class="card__title">Engineering Supply</h3>
+            <p class="card__desc">Sourcing and supply of engineering equipment, parts and consumables.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<section id="contact" class="contact">
-<h2>Contact Us</h2>
-<form id="contactForm">
-<input type="text" name="name" placeholder="Your Name" required />
-<input type="email" name="email" placeholder="Your Email" required />
-<textarea name="message" placeholder="Your Message" required></textarea>
-<button type="submit">Send Message</button>
-</form>
-</section>
+    <!-- ===== Industries ===== -->
+    <section id="industries" class="section section--alt">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Who we serve</p>
+          <h2 class="section__title">Industries</h2>
+        </header>
+        <div class="grid grid--industries">
+          <div class="industry">
+            <h3>Electronics</h3>
+            <p>Tin/precious‑metal plating lines, QA checkpoints, ESD compliance.</p>
+          </div>
+          <div class="industry">
+            <h3>Manufacturing</h3>
+            <p>Surface coating booths, retrofit & maintenance, process integration.</p>
+          </div>
+          <div class="industry">
+            <h3>Environmental</h3>
+            <p>Compact WWTP skids, dosing automation, compliance documentation.</p>
+          </div>
+          <div class="industry">
+            <h3>Automotive</h3>
+            <p>Refinishing, surface prep workflows, durability testing support.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- ===== Projects / Case Studies ===== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Recent work</p>
+          <h2 class="section__title">Selected Projects</h2>
+        </header>
+        <div class="grid grid--projects">
+          <article class="project">
+            <div class="project__media"><img src="./assets/images/project-electroplating.jpg" alt="Tin electroplating line" /></div>
+            <div class="project__body">
+              <span class="tag">Electronics</span>
+              <h3>Tin Electroplating System</h3>
+              <p>Design & setup of a tin electroplating line with process monitoring and QA checkpoints.</p>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__media"><img src="./assets/images/project-wwtp.jpg" alt="Wastewater treatment skid" /></div>
+            <div class="project__body">
+              <span class="tag">Environmental</span>
+              <h3>Wastewater Treatment Skid</h3>
+              <p>Installation of a compact WWTP for industrial clients with automated dosing control.</p>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__media"><img src="./assets/images/project-coating.jpg" alt="Surface coating retrofit" /></div>
+            <div class="project__body">
+              <span class="tag">Manufacturing</span>
+              <h3>Surface Coating Retrofit</h3>
+              <p>Retrofit of legacy coating booth with improved airflow and overspray capture.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<footer>
-<p>&copy; 2025 Dekad Emas Resources. All Rights Reserved.</p>
-</footer>
+    <!-- ===== Certifications / Proof ===== -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="proof">
+          <div class="proof__item">
+            <div class="proof__icon">✅</div>
+            <div>
+              <h3>Safety‑first delivery</h3>
+              <p>Method statements, risk assessments and operator training as standard.</p>
+            </div>
+          </div>
+          <div class="proof__item">
+            <div class="proof__icon">📋</div>
+            <div>
+              <h3>Documentation</h3>
+              <p>Commissioning reports, maintenance schedules and handover packs.</p>
+            </div>
+          </div>
+          <div class="proof__item">
+            <div class="proof__icon">🕒</div>
+            <div>
+              <h3>Uptime focus</h3>
+              <p>Design choices that simplify maintenance and minimize downtime.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<link rel="stylesheet" href="style.css">
+    <!-- ===== About ===== -->
+    <section id="about" class="section">
+      <div class="container about">
+        <div class="about__copy">
+          <p class="eyebrow">Who we are</p>
+          <h2 class="section__title">About Dekad Emas Resources</h2>
+          <p>Malaysia‑based engineering consultancy led by industry veterans. We build electroplating systems, WWTP skids, coating booths and integrate process control. Pragmatic designs that are safe, maintainable and cost‑effective.</p>
+          <ul class="checklist">
+            <li>ISO‑minded quality practices</li>
+            <li>Process stability & uptime first</li>
+            <li>Maintainability & operator safety</li>
+          </ul>
+        </div>
+        <div class="about__media">
+          <div class="media-tile">Team / Workshop</div>
+          <div class="media-tile">On‑site install</div>
+          <div class="media-tile">Plating line</div>
+          <div class="media-tile">WWTP skid</div>
+        </div>
+      </div>
+    </section>
 
-<script src="script.js"></script>
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="section section--contact">
+      <div class="container contact">
+        <header class="section__head">
+          <p class="eyebrow">Get in touch</p>
+          <h2 class="section__title">Request a Quote</h2>
+          <p class="section__desc">Tell us about your project. We usually respond within one business day.</p>
+        </header>
+        <div class="contact__grid">
+          <form action="https://formspree.io/f/your-id" method="POST" class="form" id="contactForm">
+            <div class="form__row">
+              <label class="sr-only" for="name">Full name</label>
+              <input id="name" name="name" placeholder="Full name" required />
+              <label class="sr-only" for="email">Email</label>
+              <input id="email" type="email" name="email" placeholder="Email" required />
+            </div>
+            <label class="sr-only" for="company">Company</label>
+            <input id="company" name="company" placeholder="Company (optional)" />
+            <label class="sr-only" for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Project details / scope" rows="6" required></textarea>
+            <button class="btn btn--brand" type="submit">Send Message</button>
+            <p class="form__note">By submitting, you agree to our <a href="#" aria-label="Read privacy policy">privacy policy</a>.</p>
+          </form>
+
+          <aside class="contact__details">
+            <div class="contact__card">
+              <h3>Contact Details</h3>
+              <ul>
+                <li>📧 info@dekademas.com</li>
+                <li>📞 +60 1X‑XXXX XXXX</li>
+                <li>📍 Malaysia</li>
+                <li>🔗 <a href="https://www.facebook.com/p/DEKAD-EMAS-RESOURCES-100054367804135/" target="_blank" rel="noreferrer">Facebook Page</a></li>
+              </ul>
+            </div>
+            <div class="contact__card">
+              <h3>Why clients choose us</h3>
+              <ul class="bullets">
+                <li>Pragmatic designs for real‑world operations</li>
+                <li>Responsive support & clear communication</li>
+                <li>Safety‑first, quality‑assured delivery</li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="./assets/images/logo-mark.svg" alt="DE logo" class="footer__logo" />
+        <p>© <span id="year"></span> Dekad Emas Resources. All rights reserved.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Footer">
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
